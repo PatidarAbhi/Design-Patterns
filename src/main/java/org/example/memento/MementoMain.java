@@ -11,8 +11,8 @@ public class MementoMain {
         System.out.println(editor.getContent());
 
         editor.setContent("Kartik");
-        System.out.println(editor.getContent());
         history.save(editor);
+        System.out.println(editor.getContent());
 
         editor.setContent("Sarang");
         System.out.println(editor.getContent());
@@ -22,7 +22,6 @@ public class MementoMain {
 
         history.undo(editor);
         System.out.println(editor.getContent());
-
 
 
     }

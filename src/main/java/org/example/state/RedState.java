@@ -1,6 +1,5 @@
 package org.example.state;
 
-import java.util.PrimitiveIterator;
 
 public class RedState  implements  State{
 
