@@ -1,5 +1,6 @@
 package org.example;
 
+import org.example.Ecommerce.command.EcommercMain;
 import org.example.homeAutomationSystem.AutomationMain;
 
 public class Main {
@@ -30,7 +31,10 @@ public class Main {
 
 
        // MainClass.homeAppliance();
-        AutomationMain.automation();
+        //AutomationMain.automation();
+
+        //for ecommerce
+        EcommercMain.shopping();
     }
 
 }
