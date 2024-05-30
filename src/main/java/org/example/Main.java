@@ -2,6 +2,7 @@ package org.example;
 
 import org.example.Ecommerce.command.EcommercMain;
 import org.example.homeAutomationSystem.AutomationMain;
+import org.example.observer.StcokMarket;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,7 +35,10 @@ public class Main {
         //AutomationMain.automation();
 
         //for ecommerce
-        EcommercMain.shopping();
+       // EcommercMain.shopping();
+
+        //observer pattern
+        StcokMarket.observer();
     }
 
 }
