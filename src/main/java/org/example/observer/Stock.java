@@ -11,6 +11,7 @@ public class Stock extends Subject{
     }
 
 
+
     public void setStockPrice(double stockPrice) {
         this.stockPrice = stockPrice;
         notifyAllObserver(stockName ,stockPrice);

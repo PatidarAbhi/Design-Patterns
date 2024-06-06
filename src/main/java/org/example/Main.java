@@ -1,8 +1,10 @@
 package org.example;
 
 import org.example.Ecommerce.command.EcommercMain;
+import org.example.chainOfResponsibilty.MainChain;
 import org.example.homeAutomationSystem.AutomationMain;
 import org.example.observer.StcokMarket;
+import org.example.visitor.VisitorMain;
 
 public class Main {
     public static void main(String[] args) {
@@ -38,7 +40,13 @@ public class Main {
        // EcommercMain.shopping();
 
         //observer pattern
-        StcokMarket.observer();
+        //StcokMarket.observer();
+
+        //chain of responsibility
+       // MainChain.accounting();
+
+        //visitor pattern\
+        VisitorMain.visit();
     }
 
 }
